@@ -16,7 +16,7 @@ public final class Constants {
     public static final int kShooterMotorPort = 22;
 
     // These are not real PID gains, and will have to be tuned for your specific robot.
-    public static final double kP = 1;
+    public static final double kP = 0.01;
 
     // On a real robot the feedforward constants should be empirically determined; these are
     // reasonable guesses.
